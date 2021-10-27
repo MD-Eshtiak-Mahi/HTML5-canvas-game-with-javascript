@@ -52,8 +52,8 @@ h1{
 }
 
 @media (min-height: 425px) {
-  /** Youtube logo by https://codepen.io/alvaromontoro */
-  #youtube {
+ 
+  #cool {
     z-index: 50;
     width: 100px;
     display: block;
@@ -67,13 +67,13 @@ h1{
     transition: transform 0.5s;
   }
 
-  #youtube:hover,
-  #youtube:focus {
+  #cool:hover,
+  #cool:focus {
     transform: scale(0.9);
     color: black;
   }
 
-  #youtube::before {
+  #cool::before {
     content: "";
     display: block;
     position: absolute;
@@ -85,7 +85,7 @@ h1{
     border-radius: 9% / 50%;
   }
 
-  #youtube::after {
+  #cool::after {
     content: "";
     display: block;
     position: absolute;
@@ -98,7 +98,7 @@ h1{
     border-left: 30px solid white;
   }
 
-  #youtube span {
+  #cool span {
     font-size: 0;
     position: absolute;
     width: 0;
@@ -106,7 +106,7 @@ h1{
     overflow: hidden;
   }
 
-  #youtube:hover + #youtube-card {
+  #cool:hover + #youtube-card {
     z-index: 49;
     display: block;
     position: fixed;
